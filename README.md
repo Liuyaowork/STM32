@@ -36,7 +36,7 @@
 │   ├── Driver/         # 外设驱动（SPI/I2C 等）
 │   ├── Libraries/      # 第三方库（如 FreeRTOS）
 │   ├── Startup/        # 启动程序
-│   ├── Output/         # 输出文件 （包含HEX文件）
+│   ├── Output/         # 输出文件（包含HEX文件）
 │   └── New Project/    # 硬件设计（PCB、原理图）
 ├── PZ-ISP.exe          # 烧入工具
 └── README.md           # 项目说明
