@@ -52,9 +52,9 @@
 ### 2. 软件配置
 1. 克隆仓库：
    ```bash
-   git clone https://github.com/liuyaowork/stm32.git
+   git clone https://github.com/Liuyaowork/STM32.git
    ```
-2. 使用 **通过 Keil 导入工程** 。
+2. 使用 **通过 Keil5 导入工程** 。
 3. 编译并烧录到开发板。
 
 ### 3. 示例代码
