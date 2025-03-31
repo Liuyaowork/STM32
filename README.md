@@ -26,13 +26,19 @@
 ```plaintext
 .
 ├── Docs/               # 文档（数据手册、原理图）
-├── mode/               #工程模板
-├── Firmware/           # 实验代码
-│   ├── Core/           # 主程序（main.c, HAL 初始化等）
-│   ├── Drivers/        # 外设驱动（SPI/I2C 等）
-│   └── Libraries/      # 第三方库（如 FreeRTOS）
-├── Hardware/           # 硬件设计（PCB、原理图）
-├── PZ-ISP.exe          #烧入工具
+├── project template/   # 工程模板
+├── project.7z/         # 实验项目代码压缩包
+│   ├── .git/           # git本地仓库
+│   ├── .vscode/        # VS Code
+│   ├── User/           # 主程序（main.c, HAL 初始化等）
+│   ├── APP/            # 功能程序
+│   ├── Cmsis/          # 必要文件
+│   ├── Driver/         # 外设驱动（SPI/I2C 等）
+│   ├── Libraries/      # 第三方库（如 FreeRTOS）
+│   ├── Startup/        # 启动程序
+│   ├── Output/         # 输出文件 （包含HEX文件）
+│   └── New Project/    # 硬件设计（PCB、原理图）
+├── PZ-ISP.exe          # 烧入工具
 └── README.md           # 项目说明
 ```
 
